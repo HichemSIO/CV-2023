@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Onglets</title>
+    <link rel="stylesheet" href="style.css" />
+ 
+
+  </head>
+  <body>
+    <div class="tabs">
+      <div
+        role="tablist"
+        aria-label="tabs component"
+        class="tabs-btn-container"
+      >
+        <button
+          role="tab"
+          aria-controls="panel-1"
+          id="tab-1"
+          type="button"
+          aria-selected="true"
+          tabindex="0"
+          class="tab active-tab"
+        >
+          CV
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-2"
+          id="tab-2"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+         Lettre de motivation
+        </button>
+        <button
+          role="tab"
+          aria-controls="panel-3"
+          id="tab-3"
+          type="button"
+          aria-selected="false"
+          tabindex="-1"
+          class="tab"
+        >
+          contact
+        </button>
+      </div>
+      <div
+        id="panel-1"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-1"
+        class="tab-content active-tab-content"
+      >
+        <h3>CV</h3>
+        <p>
+          ZENAINI HICHEM <br>
+          73 Rue du Havre<br>
+           Aulnay-Sous-Bois  <br>
+            07-83-03-58-11 <br>
+          zenaini.hichem.sio@gmail.com
+          <br><br>
+          Expérience
+          </p>
+          <P>
+          2018<br>
+          Stage de 3eme (1semaine)<br>
+          Pâtissier, François la pâtisserie (Aulnay-Sous-Bois)
+          2022<br>
+          Opérateur de saisie, Buralgestion (Paris)  (1 mois)<br><br><br>
+          </P>
+          FORMATION<br>
+          2022-2023<br>
+          ACTUELLEMENT EN DEUXIEME ANNEE DE BTS SIO BREVET DE TECHNICIEN SUPERIEUR - SERVICES INFORMATIQUES AUX ORGANISATIONS OPTION SOLUTIONS LOGICIELLES ET APPLICATIONS METIERS
+          <br><br>
+          2020-2021<br>
+          BACCALAUREAT SCIENCES ET TECHNOLOGIES DE L'INDUSTRIE ET DU DEVELOPPEMENT DURABLE OPTION SYSTEMES D'INFORMATION ET NUMERIQUE.
+          MENTION ASSEZ BIEN<br>
+          (LYCEE VOILLAUME AULNAY-SOUS-BOIS)<br>
+          2017-2018<br>
+          BREVET DES COLLEGES<br>
+          MENTION ASSEZ BIEN<br>
+          (COLLEGE SIMONE VEIL AULNAY-SOUS-BOIS) <br>
+          
+        </P>
+        <P>
+          <br><br>
+          COMPETENCES<br>
+          •	Développement WEB : conception et développement de sites web dynamiques<br>
+          •	Langage de programmation :HTML5,javascript,PHP,CSS3,MYSQL,Angular,C#,Python.<br>
+          •	Logiciel: Visual Studio, Virtual Box<br>
+          • Administration de systèmes d'exploitation : Windows, Linux
+          •	Langue: Français, anglais.<br>
+          
+        </p>
+
+        <P>
+          <br><br>
+          CENTRES D'INTERET
+          <br>
+          •Programmation et développement informatique<br>
+          •Veille technologique <br>
+          •Musique et cinéma<br>
+           <li><a href="https://github.com/HichemSIO">GitHub-CV</a></li>
+        </p>
+      </div>
+
+      <div
+        id="panel-2"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-2"
+        class="tab-content"
+      >
+        <h3>Lettre de motivation</h3>
+        <p>
+ Zenaini Hichem<br>
+  07-83-03-58-11<br>
+zenaini.hichem.sio@gmail.com<br>
+</p>
+<p></p>
+Madame, Monsieur, <br>
+
+Actuellement étudiant en deuxième année de BTS SIO, j'ai pour ambition de poursuivre mes études dans le domaine du développement informatique. C'est donc tout naturellement que je me suis intéressé à votre programme de Licence en Développement Informatique à Sup de Vinci.<br>
+
+L'excellente réputation de votre école, combinée à la qualité de son enseignement, m'a convaincu que Sup de Vinci est l'endroit idéal pour poursuivre mes études supérieures. J'ai hâte de bénéficier de l'expertise de vos enseignants, qui ont fait leurs preuves dans le monde professionnel.<br>
+
+J'ai choisi la spécialisation en développement informatique, car j'aime créer des solutions pour répondre aux besoins des utilisateurs et des entreprises. J'ai déjà acquis des compétences en programmation, en développement web et en bases de données, grâce à mes études actuelles et à des projets personnels que j'ai réalisés.<br>
+
+Je suis persuadé que la Licence en Développement Informatique à Sup de Vinci me permettra d'acquérir les compétences techniques et pratiques nécessaires pour réussir dans ce domaine. Je suis également convaincu que l'enseignement de votre école me permettra de développer mon esprit d'analyse, ma créativité et ma capacité à travailler en équipe.<br>
+
+Enfin, je suis persuadé que Sup de Vinci peut m'offrir des opportunités professionnelles intéressantes grâce à votre réseau d'entreprises partenaires et de diplômés. Je suis très motivé pour poursuivre mes études à Sup de Vinci et j'aimerais avoir la chance de vous convaincre de ma candidature lors d'un entretien.<br>
+
+Je vous remercie de votre attention et reste à votre disposition pour toute information complémentaire.<br>
+
+Veuillez agréer, Madame, Monsieur, l'expression de mes salutations distinguées.<br>
+      </div>
+
+      <div
+        id="panel-3"
+        role="tabpanel"
+        tabindex="0"
+        aria-labelledby="tab-3"
+        class="tab-content"
+      >
+        <h3>Contact</h3>
+        <form>
+          <label for="name">Nom :</label>
+          <input type="text" id="name" name="name" required>
+          
+          <label for="email">Email :</label>
+          <input type="email" id="email" name="email" required>
+          
+          <label for="message">Message :</label>
+          <textarea id="message" name="message" required></textarea>
+          
+          <button type="submit">Envoyer</button>
+        </form>
+      </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
